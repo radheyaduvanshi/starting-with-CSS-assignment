@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ans1</title>
+    <link rel="stylesheet" href="/ans1.css">
+    <style>
+        .internal {color: blue; font-size: 20px;}
+        .all {color: blue;}
+    </style>
+</head>
+<body>
+    <h1>Different ways to add CSS</h1>
+    <div>
+        <h2>Inline CSS</h2>
+        <p style="color: rgb(251, 249, 249); background-color: rgb(9, 97, 97);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cupiditate doloribus ipsam officia saepe temporibus, ipsa animi vero sit culpa.</p>
+    </div>
+    <div>
+        <h2>Internal CSS</h2>
+        <p class="internal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit totam minima, dicta dolore esse temporibus quam fugiat ipsum tempora expedita.</p>
+    </div>
+    <div>
+        <h2>External</h2>
+        <p class="external">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima officiis dolor est reprehenderit recusandae nulla praesentium eum quasi mollitia ipsam!</p>
+    </div>
+    <div style="color: red;" class="all">
+        <p>when we target the same element with inline, internal and external CSS, it will get rendered in following order. <br>
+            inline>internal>external
+        </p>
+    </div>
+</body>
+</html>
